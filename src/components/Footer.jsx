@@ -220,7 +220,7 @@ const Footer = () => {
             >
               Portfolio
             </a>
-            <a
+            {/* <a
               href="#"
               style={{
                 textDecoration: "none",
@@ -230,7 +230,7 @@ const Footer = () => {
               }}
             >
               Article
-            </a>
+            </a> */}
             <a
               href="/Loyaltyreward"
               style={{

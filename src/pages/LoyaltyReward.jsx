@@ -225,7 +225,7 @@ function LoyaltyReward() {
           </div>
         </section>
       </div>
-      <section className="loyalty-reward__section-container">
+      {/* <section className="loyalty-reward__section-container">
         <h2 className="loyalty-reward__section-title fw-bold">
           Claim Your Rewards
         </h2>
@@ -262,7 +262,7 @@ function LoyaltyReward() {
             </button>
           </form>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

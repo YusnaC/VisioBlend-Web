@@ -135,12 +135,13 @@
 }
 
 /* BAGIAN CONTACT US */
+.text-wrap-contact {
+  margin-right: 150px;
+}
 .custom-contact-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 100px;
 }
 
 .custom-submit-button {
@@ -227,6 +228,7 @@
 
 .servis-container {
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .servis-item {
@@ -342,26 +344,24 @@
 }
 
 .custom-photo-grid {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   overflow-y: auto;
   max-height: 60vh;
   padding: 0 100px;
 }
 
-.custom-photo-column {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  gap: 40px;
+.custom-photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .custom-photo img {
-  max-width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 230px;
+  object-fit: cover;
   cursor: pointer;
   transition: transform 0.3s ease, opacity 0.3s ease;
   border-radius: 8px;
@@ -397,3 +397,9 @@
   font-size: 30px;
   cursor: pointer;
 }
+
+/* .custom-photo-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} */

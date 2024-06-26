@@ -12,13 +12,14 @@
 
 .portfolio-servis-container {
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .portfolio-servis-item {
   display: flex;
   justify-content: center;
-  margin-top: -20px;
   width: 100%;
+  margin-top: -20px;
 }
 
 .portfolio-servis-title {
@@ -127,26 +128,24 @@
 }
 
 .portfolio-custom-photo-grid {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
   overflow-y: auto;
   max-height: 60vh;
   padding: 0 100px;
 }
 
-.portfolio-custom-photo-column {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  gap: 40px;
+.portfolio-custom-photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .portfolio-custom-photo img {
-  max-width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 230px;
+  object-fit: cover;
   cursor: pointer;
   transition: transform 0.3s ease, opacity 0.3s ease;
   border-radius: 8px;

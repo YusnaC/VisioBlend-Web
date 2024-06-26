@@ -10,15 +10,30 @@ import reels from "./../assets/reels.svg";
 import Picture1 from "./../assets/Picture1.png";
 import Picture2 from "./../assets/Picture2.png";
 import iconPortfolio from "./../assets/iconPortfolio.svg";
+import image0 from "../assets/image/image0.jpg";
 import image1 from "../assets/image/image1.jpg";
 import image2 from "../assets/image/image2.jpg";
 import image3 from "../assets/image/image3.jpg";
-import image4 from "../assets/image/image4.jpg";
+import image4 from "../assets/image/image4.png";
 import image5 from "../assets/image/image5.jpg";
 import image6 from "../assets/image/image6.jpg";
 import image7 from "../assets/image/image7.jpg";
 import image8 from "../assets/image/image8.jpg";
 import image9 from "../assets/image/image9.jpg";
+import image10 from "../assets/image/image10.jpg";
+import image11 from "../assets/image/image11.jpg";
+import image12 from "../assets/image/image12.png";
+import image13 from "../assets/image/image13.jpg";
+import image14 from "../assets/image/image14.png";
+import image15 from "../assets/image/image15.jpg";
+import image16 from "../assets/image/image16.png";
+import image17 from "../assets/image/image17.jpg";
+import image18 from "../assets/image/image18.jpg";
+import image19 from "../assets/image/image19.jpg";
+import image20 from "../assets/image/image20.png";
+import image21 from "../assets/image/image21.jpg";
+import image22 from "../assets/image/image22.jpg";
+import image23 from "../assets/image/image23.jpg";
 import about from "./../assets/iconAboutus.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -710,7 +725,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="custom-navbar-container">
+        {/* <div className="custom-navbar-container">
           <div className="custom-navbar">
             <button
               className="uniq-link-custom"
@@ -725,76 +740,175 @@ function Home() {
               <a href="#gen-z">Gen-Z</a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="custom-photo-grid">
-          <div className="custom-photo-column">
-            <div className="custom-photo">
-              <img
-                src={image1}
-                alt="Image 1"
-                onClick={() => handlePhotoClick(image1)}
-              />
-            </div>
-            <div className="custom-photo">
-              <img
-                src={image2}
-                alt="Image 2"
-                onClick={() => handlePhotoClick(image2)}
-              />
-            </div>
-            <div className="custom-photo">
-              <img
-                src={image3}
-                alt="Image 3"
-                onClick={() => handlePhotoClick(image3)}
-              />
-            </div>
+          <div className="custom-photo">
+            <img
+              src={image1}
+              alt="Image 1"
+              onClick={() => handlePhotoClick(image1)}
+            />
           </div>
-          <div className="custom-photo-column">
-            <div className="custom-photo">
-              <img
-                src={image4}
-                alt="Image 4"
-                onClick={() => handlePhotoClick(image4)}
-              />
-            </div>
-            <div className="custom-photo">
-              <img
-                src={image5}
-                alt="Image 5"
-                onClick={() => handlePhotoClick(image5)}
-              />
-            </div>
-            <div className="custom-photo">
-              <img
-                src={image6}
-                alt="Image 6"
-                onClick={() => handlePhotoClick(image6)}
-              />
-            </div>
+          <div className="custom-photo">
+            <img
+              src={image2}
+              alt="Image 2"
+              onClick={() => handlePhotoClick(image2)}
+            />
           </div>
-          <div className="custom-photo-column">
-            <div className="custom-photo">
-              <img
-                src={image7}
-                alt="Image 7"
-                onClick={() => handlePhotoClick(image7)}
-              />
-            </div>
-            <div className="custom-photo">
-              <img
-                src={image8}
-                alt="Image 8"
-                onClick={() => handlePhotoClick(image8)}
-              />
-            </div>
-            <div className="custom-photo">
-              <img
-                src={image9}
-                alt="Image 9"
-                onClick={() => handlePhotoClick(image9)}
-              />
-            </div>
+          <div className="custom-photo">
+            <img
+              src={image3}
+              alt="Image 3"
+              onClick={() => handlePhotoClick(image3)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image21}
+              alt="Image 21"
+              onClick={() => handlePhotoClick(image21)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image22}
+              alt="Image 22"
+              onClick={() => handlePhotoClick(image22)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image23}
+              alt="Image 23"
+              onClick={() => handlePhotoClick(image23)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image4}
+              alt="Image 4"
+              onClick={() => handlePhotoClick(image4)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image5}
+              alt="Image 5"
+              onClick={() => handlePhotoClick(image5)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image0}
+              alt="Image 0"
+              onClick={() => handlePhotoClick(image0)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image6}
+              alt="Image 6"
+              onClick={() => handlePhotoClick(image6)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image7}
+              alt="Image 7"
+              onClick={() => handlePhotoClick(image7)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image8}
+              alt="Image 8"
+              onClick={() => handlePhotoClick(image8)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image9}
+              alt="Image 9"
+              onClick={() => handlePhotoClick(image9)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image10}
+              alt="Image 10"
+              onClick={() => handlePhotoClick(image10)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image11}
+              alt="Image 11"
+              onClick={() => handlePhotoClick(image11)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image12}
+              alt="Image 12"
+              onClick={() => handlePhotoClick(image12)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image13}
+              alt="Image 13"
+              onClick={() => handlePhotoClick(image13)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image14}
+              alt="Image 14"
+              onClick={() => handlePhotoClick(image14)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image15}
+              alt="Image 15"
+              onClick={() => handlePhotoClick(image15)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image16}
+              alt="Image 16"
+              onClick={() => handlePhotoClick(image16)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image17}
+              alt="Image 17"
+              onClick={() => handlePhotoClick(image17)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image18}
+              alt="Image 18"
+              onClick={() => handlePhotoClick(image18)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image19}
+              alt="Image 19"
+              onClick={() => handlePhotoClick(image19)}
+            />
+          </div>
+          <div className="custom-photo">
+            <img
+              src={image20}
+              alt="Image 20"
+              onClick={() => handlePhotoClick(image20)}
+            />
           </div>
         </div>
 
@@ -809,10 +923,110 @@ function Home() {
       {/*BAGIAN CONTACT US */}
       <div
         className="custom-contact-container"
-        style={{ fontFamily: "Poppins, sans-serif", height: "100vh" }}
+        style={{ fontFamily: "Poppins, sans-serif", height: "60vh" }}
       >
-        <div className="custom-contact-wrapper d-flex">
-          <div className="form-wrapper" style={{ marginRight: "200px" }}>
+        <div className="custom-contact-wrapper">
+          <div className="head-contact">
+            <h1
+              style={{
+                fontFamily: "'Outfit', sans-serif",
+                fontWeight: "bold",
+                fontSize: "50px",
+                textAlign: "center",
+              }}
+            >
+              Contact Us{" "}
+              <span className="custom-highlight" style={{ color: "#bf9b30" }}>
+                Today
+              </span>
+            </h1>
+            <div
+              className="contact-wrap-item-list d-flex"
+              style={{
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: "50px",
+                marginLeft: "200px",
+              }}
+            >
+              <div className="text-wrap-contact">
+                <div className="head-contact-item">
+                  <h3>Address</h3>
+                  <div
+                    className="text-paragraf-contact"
+                    style={{ marginTop: "30px" }}
+                  >
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=Jl.%20Kapten%20Agung%20No.1%2C%20Denpasar"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "black" }}
+                    >
+                      <p>Jl Kapten Agung No.1</p>
+                      <p>Denpasar, Bali - Indonesia</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="text-wrap-contact">
+                <div className="head-contact-item">
+                  <h3>Contact</h3>
+                  <div
+                    className="text-paragraf-contact"
+                    style={{ marginTop: "30px" }}
+                  >
+                    <a
+                      href="https://wa.me/6283188029765"
+                      target="_blank"
+                      style={{
+                        textDecoration: "none",
+                        color: "black",
+                        display: "block",
+                      }}
+                    >
+                      +6283188029765
+                    </a>
+                    <br />
+                    <a
+                      href="mailto:visioblendbali@gmail.com"
+                      target="_blank"
+                      style={{
+                        textDecoration: "none",
+                        color: "black",
+                        display: "block",
+                      }}
+                    >
+                      visioblendbali@gmail.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="text-wrap-contact">
+                <div className="head-contact-item">
+                  <h3>Opening Hours</h3>
+                  <div
+                    className="text-paragraf-contact"
+                    style={{ marginTop: "30px" }}
+                  >
+                    <div className="d-flex">
+                      <p>Mon - Fri</p>
+                      <p style={{ marginLeft: "50px" }}>09:00 am - 09:00pm</p>
+                    </div>
+                    <div className="d-flex">
+                      <p>Saturday</p>
+                      <p style={{ marginLeft: "47px" }}>09:00 am - 09:00pm</p>
+                    </div>
+                    <div className="d-flex">
+                      <p>Sunday</p>
+                      <p style={{ marginLeft: "60px" }}>09:00 am - 09:00pm</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="form-wrapper" style={{ marginRight: "200px" }}>
             <form className="custom-contact-form" style={{ width: "400px" }}>
               <div className="custom-mt-4 custom-mb-4">
                 <label htmlFor="name">Name</label>
@@ -857,8 +1071,8 @@ function Home() {
                 Submit
               </button>
             </form>
-          </div>
-          <div className="custom-contact-info">
+          </div> */}
+      {/* <div className="custom-contact-info">
             <div className="contact-info-wrap">
               <h1
                 style={{
@@ -867,7 +1081,7 @@ function Home() {
                 }}
               >
                 Contact Us{" "}
-                {/* <span
+                <span
                   className="custom-highlight"
                   style={{
                     color: "#bf9b30",
@@ -876,7 +1090,7 @@ function Home() {
                   }}
                 >
                   Today
-                </span> */}
+                </span>
               </h1>
               <p style={{ marginTop: "20px" }}>
                 We will contact you and draw up requirements for the project and
@@ -935,9 +1149,7 @@ function Home() {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> */}
     </div>
   );
 }
