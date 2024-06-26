@@ -1,0 +1,184 @@
+.portfolio-custom-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-custom-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-servis-container {
+  margin-top: 20px;
+}
+
+.portfolio-servis-item {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  width: 100%;
+}
+
+.portfolio-servis-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 20px;
+  color: white;
+  -webkit-text-stroke: 1px rgb(75, 74, 74);
+  text-shadow: -1px -1px 0 #bebdbd, 1px -1px 0 #000000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.portfolio-servis-stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.portfolio-stat-item {
+  text-align: center;
+}
+
+.portfolio-stat-number {
+  font-size: 2em;
+  color: #b8901a;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.portfolio-stat-text {
+  font-size: 1em;
+  color: black;
+}
+
+.portfolio-custom-navbar-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  height: 60px;
+}
+
+.portfolio-custom-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: black;
+  border-radius: 20px;
+  width: 85%;
+}
+
+.portfolio-custom-navbar-right {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 10%;
+}
+
+.portfolio-custom-navbar-right a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.portfolio-custom-navbar-right a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.portfolio-custom-navbar-right a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #b8901a;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-custom-navbar-right a:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.portfolio-uniq-link-custom {
+  background-color: #b8901a;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.portfolio-uniq-link-custom:hover {
+  background-color: #dfcd97;
+  color: #bf9b30;
+}
+
+.portfolio-custom-photo-grid {
+  display: flex;
+  justify-content: space-between;
+  overflow-y: auto;
+  max-height: 60vh;
+  padding: 0 100px;
+}
+
+.portfolio-custom-photo-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.portfolio-custom-photo img {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.portfolio-custom-photo:hover img {
+  transform: scale(1.05);
+}
+
+.portfolio-custom-photo-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.portfolio-custom-photo-modal img {
+  max-width: 80%;
+  max-height: 80vh;
+}
+
+.portfolio-custom-close-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
