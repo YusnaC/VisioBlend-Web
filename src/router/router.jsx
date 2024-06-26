@@ -10,7 +10,7 @@ import Services3 from "../pages/Services3.jsx";
 import Services4 from "../pages/Services4.jsx";
 import Services5 from "../pages/Services5.jsx";
 import Loyaltyreward from "../pages/LoyaltyReward.jsx";
-import Ordering1 from "../pages/ordering1.jsx";
+// import Ordering1 from "../pages/ordering1.jsx";
 
 const router = createBrowserRouter([
   {
@@ -57,10 +57,10 @@ const router = createBrowserRouter([
         path: "/Loyaltyreward",
         element: <Loyaltyreward />,
       },
-      {
-        path: "/ordering1",
-        element: <Ordering1 />,
-      },
+      // {
+      //   path: "/ordering1",
+      //   element: <Ordering1 />,
+      // },
     ],
   },
 ]);

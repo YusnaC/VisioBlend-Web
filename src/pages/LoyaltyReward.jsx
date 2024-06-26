@@ -163,7 +163,7 @@ function LoyaltyReward() {
             bersama VisioBlend !
           </p>
           <div className="loyalty-reward__divider"></div>
-          <button className="loyalty-reward__button">Shop now</button>
+          {/* <button className="loyalty-reward__button">Shop now</button> */}
         </div>
       </div>
 
