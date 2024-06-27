@@ -18,7 +18,7 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <div className="container-fluid d-flex justify-content-between align-items-center">
-          <div className="logo-brand">
+          <div className="logo-brand" style={{ marginLeft: "32px" }}>
             <Navbar.Brand href="/">
               <img
                 src={logoicon}
