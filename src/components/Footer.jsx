@@ -395,7 +395,7 @@ const Footer = () => {
             cursor: "default",
           }}
         >
-          2024 © VisioBlend X Batavia Guardians | All Rights Reserved
+          2024 © VisioBlend | All Rights Reserved
         </div>
       </div>
     </>
